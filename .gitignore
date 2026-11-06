@@ -1,0 +1,25 @@
+# 虚拟环境与构建产物
+.venv/
+build/
+build_variant/
+dist/
+delivery/*.exe
+*.spec
+
+# Python 缓存
+__pycache__/
+*.py[cod]
+
+# 运行与验证产物（本地生成，不入库）
+validation/
+custom_texts.json
+*.log
+
+# 素材备份（换形象时自动生成）
+assets/backup_*/
+assets/backup_icon_*/
+
+# 系统文件
+Thumbs.db
+desktop.ini
+.DS_Store
